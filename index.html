@@ -26,29 +26,6 @@
         appId: "1:279814087581:web:46510b832612e4ca368574",
         measurementId: "G-8M76YMYRVT"
       };
-
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-      
-      
-      function saveToFirebase(email) {
-    var emailObject = {
-        email: email
-    };
-
-    firebase.database().ref('subscription-entries').push().set(emailObject)
-        .then(function(snapshot) {
-            success(); // some success method
-        }, function(error) {
-            console.log('error' + error);
-            error(); // some error method
-        });
-}
-
-saveToFirebase(email);
-      
-      
   </script>  
   </body>
 </html>
