@@ -1,45 +1,77 @@
-
 <!doctype html>
-<html lang = "eng">
-  <! --- Tutorial that might be helpful for twitter project: https://www.youtube.com/watch?v=hF82hb3YegE --->
+  <html lang = "eng">
+  <!-- Head -->
   <head>
+    <title>Sam Does It Dot Come</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">  
+    <meta name="viewport"
+    content= "width = device-width,
+    initial-scale = 1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Sam Does It</title>
   </head>
-  <h1>Sam Does It Dot Com</h1>
   <body>
-    <p>This is some Content.</p>
-    <p>This is a test</p>
-    <p>Let's see how long this takes</p>
-    <p>Now Let's see if everything is working. After this I should really start doing proper work on my website</p>
-
-
-
-
-
-
-
-
-
-    
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyDm3uJxgPMKk-CeB6cXzAGbtTnwQH52iLY",
-        authDomain: "sam-does-it.firebaseapp.com",
-        projectId: "sam-does-it",
-        storageBucket: "sam-does-it.appspot.com",
-        messagingSenderId: "279814087581",
-        appId: "1:279814087581:web:46510b832612e4ca368574",
-        measurementId: "G-8M76YMYRVT"
-      };
-  </script>  
+    <!-- NAV BAR SECTION -->
+    <nav class = "navbar">
+      <div class="navbar__container">
+        <a href="https://www.youtube.com/@samandmeshach6327" id= "navbar__logo"><img src="/Images/Schmacker_2 Transparent.png" alt="Image Unavailable" style="height: 80px">Sam Does It</a>
+        <div class = "navbar__toggle" id = "mobile-menu">
+          <span class = "bar"></span>
+          <span class = "bar"></span>
+          <span class = "bar"></span> 
+        </div>  
+        <ul class = "navbar__menu">
+          <li class = "navbar__item">
+            <a href ="/index.html"class="navbar__links">Home</a>
+          </li>
+          <li class = "navbar__item">
+            <a href ="/tech.html"class="navbar__links">Tech</a>
+          </li>
+          <li class = "navbar__item">
+            <a href ="/projects.html"class="navbar__links">Projects</a>
+          </li>
+          <li class = "navbar__btn">
+            <a href ="/"class="button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content"> 
+          <h1>Sam Does It</h1>
+          <h2>ALL</h2>
+          <p1>Check out some of my work :)</p1>
+          <div><button class="main__btn"><a href="/">Get Started</a></button></div>
+        </div>  
+        <div class="main_img--container">
+          <img src="/Images/IMG_4563.JPG" alt="Image Not Available" id = "main__image" style="width: 800px;"/>
+      </div>
+    </div>
+  </div>
+    <script src="app.js"></script>
   </body>
 </html>
+
+<!-- <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDm3uJxgPMKk-CeB6cXzAGbtTnwQH52iLY",
+    authDomain: "sam-does-it.firebaseapp.com",
+    projectId: "sam-does-it",
+    storageBucket: "sam-does-it.appspot.com",
+    messagingSenderId: "279814087581",
+    appId: "1:279814087581:web:46510b832612e4ca368574",
+    measurementId: "G-8M76YMYRVT"
+  };
+</script>   -->
