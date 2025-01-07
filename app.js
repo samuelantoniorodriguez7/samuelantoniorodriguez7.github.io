@@ -18,9 +18,10 @@ get_started_button.addEventListener('click', get_started_click);
 
 document.addEventListener('DOMContentLoaded', function() {
     let textItems = [
-        { text: "Programming", url: "index.html" },
-        { text: "Politics", url: "page2.html" },
-        { text: "Fitness", url: "page3.html" }
+        { text: "Programming", url: "Programming.html" },
+        { text: "Politics", url: "Politics.html" },
+        { text: "Fitness", url: "Fitness.html" },
+        {text:"A Blog", url: 'TheBlog.html"'}
     ];
 
     let index = 0;
