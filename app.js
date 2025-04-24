@@ -7,12 +7,7 @@ menu.addEventListener('click',function(){
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
 })
-//Connect abother css element to some more JS 
-const get_started_button = document.querySelector('.main__btn');
-function get_started_click(){
-    window.location.href('/');
-}
-get_started_button.addEventListener('click', get_started_click);
+
 
 
 
